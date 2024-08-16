@@ -1,0 +1,70 @@
+.articleContainer{
+    border-radius: 8px;
+    background-color:#fff;
+    padding: 10px 20px;
+    width: 700px;
+    max-width: 700px;
+    position: relative;
+}
+.articleContainer hr{
+    
+    border: none; /* 移除默认边框 */
+    border-top: 1px solid #c9d1d9; /* 设置顶部边框颜色 */
+    background-color: #c9d1d9; /* 设置背景颜色 */
+    height: 1px; /* 设置高度 */
+
+
+}
+.meta{
+    position: absolute;
+    top:-50px;
+    left: 0;
+}
+.meta span{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 5px;
+    cursor:pointer;
+}
+.meta span:hover{
+    background-color: #c9d1d9;
+}
+.tags{
+    position: absolute;
+    top:-33px;
+    right:  0;
+}
+.tags span{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 4px 5px;
+    margin: 2px;
+    cursor:pointer;
+}
+.tags span:hover{
+    background-color: #c9d1d9;
+}
+.content pre{
+    background-color:#32393f;
+    border-radius:20px;
+    box-sizing:border-box;
+    color:#c9d1d9;
+    font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    font-variant-numeric:tabular-nums;
+    margin-bottom:20px;
+    margin-top:0;
+    overflow-x:auto;
+    overflow-y:auto;
+    padding:10px 20px;
+
+}
+.content code{
+    background-color:#32393f;
+    border-radius:8px;
+    box-sizing:border-box;
+    font-size:16px;
+    margin-left:2px;
+    margin-right:2px;
+}

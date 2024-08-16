@@ -1,0 +1,14 @@
+.content{
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    box-shadow:rgba(16,36,94,.2)0 30px 40px 0;
+    width: 250px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.reactCalendar {
+    border: none; /* 移除外边框线 */
+}
+  .reactCalendar .react-calendar__month-view__weekdays__weekday {
+    border-bottom: none; /* 移除星期几标志下面的虚线 */
+}
